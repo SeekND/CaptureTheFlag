@@ -26,7 +26,7 @@ Materials you need
 > 1x Arduino Nano (or an uno if you have one should also work)
 https://www.banggood.com/ATmega328P-Arduino-Compatible-Nano-V3-Improved-Version-No-Cable-p-959231.html
 
-> 1x FPV Receiver module with SPI mod (these below already have the mod, otherwise please see the image below
+> 1x FPV Receiver module with SPI mod (these below already have the mod, otherwise please see the image [here]((pictures/spimod.jpg)
 https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p-84775.html
 
 
