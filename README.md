@@ -26,7 +26,7 @@ Materials you need
 > 1x Arduino Nano (or an uno if you have one should also work)
 https://www.banggood.com/ATmega328P-Arduino-Compatible-Nano-V3-Improved-Version-No-Cable-p-959231.html
 
-> 1x FPV Receiver module with SPI mod (these below already have the mod, otherwise please see the image [here]((pictures/spimod.jpg)
+> 1x FPV Receiver module with SPI mod (these below already have the mod but double check - google vtx spi mod or check the pictures in this repo)
 https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p-84775.html
 
 
@@ -38,7 +38,7 @@ https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-
 > The hability to solder 9 cables :)
 
  
-## How to connect it
+## How to assemble it
 
 1. Start by soldering the WS2812 strip Ground cable (black) to Arduino ground, the WS2812 strip 5V cable (red) to Arduino 5V and the WS2812 strip din cable (blue) to Arduino D5
 2. Now solder the Channel 1 pin in your VTX receiver to your Arduino D10
@@ -47,6 +47,12 @@ https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-
 5. Solder the Ground pin in your VTX receiver to your Arduino Ground (the same ground you connected the WS2812 ground to)
 6. Solder the 5v pin in your VTX receiver to your Arduino 5V (the same 5v you connected the WS2812 5v to)
 7. And finally, solder the RSSI pin in your VTX receiver to your Arduino A3
+
+[Picture 1 example](pictures/IMG_1432.JPG)
+
+[Picture 2 example](pictures/IMG_1433.JPG)
+
+[Picture 3 example](pictures/IMG_1434.JPG)
 
 What? That's it?
 Almost! You just need to upload the code to your Arduino via usb and you are done.
