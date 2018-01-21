@@ -35,7 +35,7 @@ https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p
 > 1x WS2812 led strip (I used the one below - do not recommend using a bigger strip then 10 leds without external power)
 https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-LED-Board-LED-Strip-Light-p-1122903.html
 
-> The hability to solder 9 cables :)
+> The hability to solder 9 cables :)  ( oh .. you also need 9 cables :P )
 
  
 ## How to assemble it
