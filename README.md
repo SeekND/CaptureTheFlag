@@ -35,7 +35,7 @@ https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-
 
 >> The hability to solder 9 cables :)
 
-
+ 
 How to connect it
 
 Start by soldering the WS2812 strip Ground cable (black) to Arduino ground, the WS2812 strip 5V cable (red) to Arduino 5V and the WS2812 strip din cable (blue) to Arduino D5
