@@ -29,7 +29,7 @@ https://www.banggood.com/ATmega328P-Arduino-Compatible-Nano-V3-Improved-Version-
 > 1x FPV Receiver module with SPI mod (these below already have the mod, otherwise please see the image below
 https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p-84775.html
 
-[https://static.rcgroups.net/forums/attachments/8/3/4/8/6/t8233448-151-thumb-rx5808-new-top.jpg]
+
 
 
 > 1x WS2812 led strip (I used the one below - do not recommend using a bigger strip then 10 leds without external power)
@@ -38,7 +38,7 @@ https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-
 > The hability to solder 9 cables :)
 
  
-##How to connect it
+## How to connect it
 
 1. Start by soldering the WS2812 strip Ground cable (black) to Arduino ground, the WS2812 strip 5V cable (red) to Arduino 5V and the WS2812 strip din cable (blue) to Arduino D5
 2. Now solder the Channel 1 pin in your VTX receiver to your Arduino D10
@@ -52,7 +52,7 @@ What? That's it?
 Almost! You just need to upload the code to your Arduino via usb and you are done.
 
 
-##How to upload the code (NOT YET RELEASED - BE PATIENT IF YOU HAPPEN TO BE READING THIS RIGHT NOW)
+## How to upload the code (NOT YET RELEASED - BE PATIENT IF YOU HAPPEN TO BE READING THIS RIGHT NOW)
 
 1. Start by downloading and installing Arduino IDE (https://www.arduino.cc/en/Main/Software)
 2. Next, download THIS repository and unzip it somewhere in your desktop.
@@ -64,7 +64,7 @@ Almost! You just need to upload the code to your Arduino via usb and you are don
 
 
 
-#Congratulations!
+# Congratulations!
 You are now the proud owner of a CTF flag!
 
 1. The arduino board can be powered by connecting 5v to the 5v connection OR by connecting it to a power bank via USB.
@@ -74,12 +74,12 @@ You are now the proud owner of a CTF flag!
 Protect your flags anyway you can!
 
 
-###GAME IDEA 1 (2 flags)
+### GAME IDEA 1 (2 flags)
 - Setup both teams in each flag area. Prime your flag by putting your team's drone next to it.
 - Try to capture the other team's flag and defend yours. Game ends when everyone runs out of their battery (TEAM WIN BOTH FLAGS or DRAW 1 FLAG EACH).
 - Reset by replugging arduino to power
 
-###GAME IDEA 2 (multiple flags)
+### GAME IDEA 2 (multiple flags)
 - Team death math. Both teams start from a staging area and try to capture and hold as many flags as you can.
 - Game ends when everyone runs out of their battery (TEAM WIN FOR MOST FLAGS).
 - Reset by replugging arduino to power
