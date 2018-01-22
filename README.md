@@ -81,10 +81,11 @@ Almost! You just need to upload the code to your Arduino via usb and you are don
 You are now the proud owner of a CTF flag!
 
 1. The arduino board can be powered by connecting 5v to the 5v connection OR by connecting it to a power bank via USB.
-2. Once you power up the arduino board it will start scanning for all RACEBAND frequencies. It takes ~6 seconds to do a complete loop. 
-3. Once it finds the first frequency it will change the LED colour depending if you are BLUE TEAM (RACEBAND 1-4) or RED TEAM (RACEBAND 5-8)
-4. Once the flag changes colour it will only scan for the other team frequencies so the scanning takes place faster (~3 seconds for a loop)
-5. Protect your flags anyway you can!
+2. You can now also 3D print a neat cover for the arduino : https://www.thingiverse.com/thing:2766437
+3. Once you power up the arduino board it will start scanning for all RACEBAND frequencies. It takes ~6 seconds to do a complete loop. 
+4. Once it finds the first frequency it will change the LED colour depending if you are BLUE TEAM (RACEBAND 1-4) or RED TEAM (RACEBAND 5-8)
+5. Once the flag changes colour it will only scan for the other team frequencies so the scanning takes place faster (~3 seconds for a loop)
+6. Protect your flags anyway you can!
 
 ## MODES
 
@@ -130,3 +131,18 @@ There are currently 3 modes available
 ### GAME IDEA 4 (SCAVENGER HUNT - MODE 3)
 - Up to 8 players (R1-R8) start from a staging area and try to find as many HIDDEN flags as they can before everyone runs out of battery.
 - Once a flag is captured it cannot be recaptured by another drone. The one with the most flags captured wins.
+
+
+# CONTACTS
+
+https://www.youtube.com/SeekNDFPV
+https://www.facebook.com/SeekNDFPV/
+
+# SUPPORT
+
+If you'd like to help support the project please contribute with ideas.
+
+If you would like to contribute in another way, I would be very grateful as well.
+paypal.me/SeekND
+
+Thank you for your support!!
