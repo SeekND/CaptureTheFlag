@@ -34,8 +34,6 @@ https://www.banggood.com/ATmega328P-Arduino-Compatible-Nano-V3-Improved-Version-
 https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p-84775.html
 
 
-
-
 > 1x WS2812 led strip (I used the one below - do not recommend using a bigger strip then 10 leds without external power)
 https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-LED-Board-LED-Strip-Light-p-1122903.html
 
@@ -62,7 +60,7 @@ What? That's it?
 Almost! You just need to upload the code to your Arduino via usb and you are done.
 
 
-## How to upload the code (NOT YET RELEASED - BE PATIENT IF YOU HAPPEN TO BE READING THIS RIGHT NOW)
+## How to upload the code
 
 1. Start by downloading and installing Arduino IDE (https://www.arduino.cc/en/Main/Software)
 2. Next, download THIS repository and unzip it somewhere in your desktop.
