@@ -10,7 +10,7 @@ If you happen to stumble here and don't know what FPV you can read about it in [
 
 
 
-This mod was made with Tiny Whoops (check *TinyWhoop.com*) in mind but really you can use it with any size drone as long as it has a video transmitter on it.
+This mod was made with Tiny Whoops (check *TinyWhoop.com*) in mind but really you can use it with any size drone as long as it has a 5.8 Ghz video transmitter on it.
 
 It’s fairly easy to build, **costs around £9 (or $12) per flag in materials** and you just need to solder a few cables 🙂
 
