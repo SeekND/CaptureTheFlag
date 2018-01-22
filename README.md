@@ -25,7 +25,7 @@ Unlike Chorus RF Laptimer, at this moment this mod is standalone and cannot be a
 You can though, change the code to match your needs.
 I've commented everything that I've changed in the code with (CC) and the explanation behind it so it's easy for you to find it and replace it. Pretty sure the code can be improved by A LOT but hey .. it's working!
 
-Materials you need
+## Materials you need
 
 > 1x Arduino Nano (or an uno if you have one should also work)
 https://www.banggood.com/ATmega328P-Arduino-Compatible-Nano-V3-Improved-Version-No-Cable-p-959231.html
@@ -135,14 +135,15 @@ There are currently 3 modes available
 
 # CONTACTS
 
-https://www.youtube.com/SeekNDFPV
-https://www.facebook.com/SeekNDFPV/
+- https://www.youtube.com/SeekNDFPV
+- https://www.facebook.com/SeekNDFPV/
+
 
 # SUPPORT
 
 If you'd like to help support the project please contribute with ideas.
 
 If you would like to contribute in another way, I would be very grateful as well.
-paypal.me/SeekND
+- http://paypal.me/SeekND
 
 Thank you for your support!!
