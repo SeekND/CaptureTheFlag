@@ -1,4 +1,4 @@
-# Capture The Flag
+# Capture The Flag for drones
 // Current version: 0.3 alpha //
 
 
