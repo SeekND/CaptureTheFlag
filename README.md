@@ -1,6 +1,7 @@
 # Capture The Flag for drones
-// Current version: 0.3 alpha //
+![Alt text](pictures/CTF.jpg?raw=true "CTF")
 
+// Current version: 0.3 alpha //
 
 
 I would like to share something I’ve been wanting for a while so I just decided to learn Arduino and do it myself.
