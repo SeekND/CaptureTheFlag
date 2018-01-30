@@ -8,7 +8,9 @@ I would like to share something I’ve been wanting for a while so I just decide
 
 **It’s Capture The Flag for your drones (with FPV).**
 
-See explanation video here: https://www.youtube.com/watch?v=plKc7N_GApc
+
+# See explanation video here: #
+# https://www.youtube.com/watch?v=plKc7N_GApc #
 
 If you happen to stumble here and don't know what FPV you can read about it in [Wikipedia](https://en.wikipedia.org/wiki/First-person_view_(radio_control)) or simply visit my youtube channel *www.youtube.com/SeekNDFPV*
 
