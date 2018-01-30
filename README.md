@@ -96,10 +96,12 @@ You are now the proud owner of a CTF flag!
 
 There are currently 3 modes available
 
-1. Capture the flag. Your standard capture the flag where two teams battle it out to have their flag and their opponents flag captured
+2. Capture the flag. Your standard capture the flag where two teams battle it out to have their flag and their opponents flag captured
 - R1-R4: TEAM BLUE    //     R5-8: TEAM BLUE
 
-2. Free For All Deathmatch. You are on your own and need to capture as many flags for yourself as you can.
+4. Single Player CTF. Pick Raceband 1. Turn all flags on and place them around your house. Get ready to go mental trying to get your flags not to drop to 0 leds. Good luck :)
+
+5. Free For All Deathmatch. You are on your own and need to capture as many flags for yourself as you can.
 - R1 BLUE
 - R2 GREEN
 - R3 YELLOW
@@ -107,9 +109,9 @@ There are currently 3 modes available
 - R5 CYAN
 - R6 VIOLET
 - R7 WHITE
-- R8 // not used at the moment
+- R8 MULTICOLOR
 
-3. Scavenger Hunt. All flags have been hidden. It's your mission to find as many as you can before your battery ends.
+6. Scavenger Hunt. All flags have been hidden. It's your mission to find as many as you can before your battery ends.
 - R1 BLUE
 - R2 GREEN
 - R3 YELLOW
@@ -117,25 +119,58 @@ There are currently 3 modes available
 - R5 CYAN
 - R6 VIOLET
 - R7 WHITE
-- R8 // not used at the moment
+- R8 MULTICOLOR
 
-### GAME IDEA 1 (2 flags - MODE 1)
-- Setup both teams in each flag area. Prime your flag by putting your team's drone next to it.
-- Try to capture the other team's flag and defend yours. Game ends when everyone runs out of their battery (TEAM WIN BOTH FLAGS or DRAW 1 FLAG EACH).
-- Press reset button in each arduino to restart game
+ ### GAME IDEA 1 (2 flags - MODE 2) ###
+  Setup both teams in each flag area. Prime your flag by putting your team's drone next to it.
+  Try to capture the other team's flag and defend yours. Game ends when everyone runs out of their battery (TEAM with both flags WINS or DRAW 1 FLAG EACH).
+  Press reset button in each arduino to restart game
 
-### GAME IDEA 2 (multiple flags - MODE 1)
-- Team death math. Both teams start from a staging area and try to capture and hold as many flags as you can.
-- Game ends when everyone runs out of their battery (TEAM WIN FOR MOST FLAGS).
-- Press reset button in each arduino to restart game
+   ### GAME IDEA 2 (multiple flags - MODE 2) ###
+  Team death match. Both teams start from a staging area and try to capture and hold as many flags as you can.
+  Game ends when everyone runs out of their battery (TEAM with most flags WINS).
+  Press reset button in each arduino to restart game
 
-### GAME IDEA 3 (DEATH MATCH - MODE 2)
-- Up to 8 players (R1-R8) start from a staging area and try to capture as many flags as they can before everyone runs out of battery.
-- The one with the most flags captured wins.
+  ### GAME IDEA 3 (DEATH MATCH - MODE 5) ###
+  Up to 8 players (R1-R8) start from a staging area and try to capture as many flags as they can before everyone runs out of battery.
+  The one with the most flags captured wins.
+  - R1 BLUE
+  - R2 GREEN
+  - R3 YELLOW
+  - R4 RED
+  - R5 CYAN
+  - R6 VIOLET
+  - R7 WHITE
+  - R8 MULTICOLOUR
+  Press reset button in each arduino to restart game
 
-### GAME IDEA 4 (SCAVENGER HUNT - MODE 3)
-- Up to 8 players (R1-R8) start from a staging area and try to find as many HIDDEN flags as they can before everyone runs out of battery.
-- Once a flag is captured it cannot be recaptured by another drone. The one with the most flags captured wins.
+  ### GAME IDEA 4 (SCAVENGER HUNT - MODE 6) ###
+  Up to 8 players (R1-R8) start from a staging area and try to find as many HIDDEN flags as they can before everyone runs out of battery.
+  Once a flag is captured it cannot be recaptured by another drone. The one with the most flags captured wins.
+  - R1 BLUE
+  - R2 GREEN
+  - R3 YELLOW
+  - R4 RED
+  - R5 CYAN
+  - R6 VIOLET
+  - R7 WHITE
+  - R8 MULTICOLOUR
+  Press reset button in each arduino to restart game
+
+ ### GAME IDEA 5 (SINGLEPLAYER CTF - MODE 4)  ###
+  Set your whoop to raceband1. Turn all the flags and spread them in several places of your house.
+  Once you start capturing a flag the timer for that flag will start. If you go away from that flag it will start decreasing, depending on how many colours you captured.
+  If the colours of the flag get to 0 you will not be able to recapture the flag. See how long you will managed to keep most flags alive. Good luck!
+  - R1 BLUE
+  - R2 GREEN
+  - R3 YELLOW
+  - R4 RED
+  - R5 CYAN
+  - R6 VIOLET
+  - R7 WHITE
+  - R8 MULTICOLOUR
+  Press reset button in each arduino to restart game
+
 
 
 # CONTACTS
