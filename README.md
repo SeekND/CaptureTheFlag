@@ -1,7 +1,7 @@
 # Capture The Flag for drones
 ![Alt text](pictures/CTF.jpg?raw=true "CTF")
 
-// Current version: 0.3 alpha //
+// Current version: 0.4 alpha //
 
 
 I would like to share something I’ve been wanting for a while so I just decided to learn Arduino and do it myself.
@@ -9,8 +9,8 @@ I would like to share something I’ve been wanting for a while so I just decide
 **It’s Capture The Flag for your drones (with FPV).**
 
 
-# See explanation video here: #
-# https://www.youtube.com/watch?v=plKc7N_GApc #
+## See explanation video here: ##
+## https://www.youtube.com/watch?v=plKc7N_GApc ##
 
 If you happen to stumble here and don't know what FPV you can read about it in [Wikipedia](https://en.wikipedia.org/wiki/First-person_view_(radio_control)) or simply visit my youtube channel *www.youtube.com/SeekNDFPV*
 
@@ -21,7 +21,7 @@ This mod was made with Tiny Whoops (check *TinyWhoop.com*) in mind but really yo
 It’s fairly easy to build, **costs around £9 (or $12) per flag in materials** and you just need to solder a few cables 🙂
 
 You can battle **4 drones (BLUE TEAM - RACEBAND 1 to 4) vs 4 drones (RED TEAM - RACEBAND 5 to 8)** in a game of Capture The Flag (as long as your VTX signals allow for that many to be flying at the same time) with as many flags as you are bothered to build!
-There are also two new modes you can now try out.
+There are also several new modes you can now try out - read more on this below.
 
 The code itself is GREATELY based off Chorus RF Laptimer
 Visit their repo if you are interested in knowing more about it here: https://github.com/voroshkov/Chorus-RF-Laptimer
@@ -29,7 +29,7 @@ Visit their repo if you are interested in knowing more about it here: https://gi
 Unlike Chorus RF Laptimer, at this moment this mod is standalone and cannot be accessed remotely (yet, maybe someone would like to help code that?)
 
 You can though, change the code to match your needs.
-I've commented everything that I've changed in the code with (CC) and the explanation behind it so it's easy for you to find it and replace it. Pretty sure the code can be improved by A LOT but hey .. it's working!
+I've commented everything that I've changed in the code and the explanation behind it so it's easy for you to find it and replace it. Pretty sure the code can be improved by A LOT but hey .. it's working!
 
 ## Materials you need
 
@@ -43,7 +43,7 @@ https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p
 > 1x WS2812 led strip (I used the one below - do not recommend using a bigger strip then 10 leds without external power)
 https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-LED-Board-LED-Strip-Light-p-1122903.html
 
-> The hability to solder 9 cables :)  ( oh .. you also need 9 cables :P )
+> The ability to solder a few cables :)  ( oh .. you also need a few cables :P )
 
  
 ## How to assemble it
@@ -61,6 +61,9 @@ https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-
 [Picture 2 example](pictures/IMG_1433.JPG)
 
 [Picture 3 example](pictures/IMG_1434.JPG)
+
+## You can see a build video here: ##
+## https://www.youtube.com/watch?v=enudy0pY3R4 ##
 
 What? That's it?
 Almost! You just need to upload the code to your Arduino via usb and you are done.
@@ -94,7 +97,7 @@ You are now the proud owner of a CTF flag!
 
 ## MODES
 
-There are currently 3 modes available
+Modes available
 
 2. Capture the flag. Your standard capture the flag where two teams battle it out to have their flag and their opponents flag captured
 - R1-R4: TEAM BLUE    //     R5-8: TEAM BLUE
@@ -184,6 +187,6 @@ There are currently 3 modes available
 If you'd like to help support the project please contribute with ideas.
 
 If you would like to contribute in another way, I would be very grateful as well.
-- http://paypal.me/SeekND
+![Alt text](http://www.sign-holders.co.uk/my_documents/my_pictures/PayPal%20logo.jpg?raw=true "paypal") http://paypal.me/SeekND
 
 Thank you for your support!!
