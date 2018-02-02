@@ -40,8 +40,8 @@ https://www.banggood.com/ATmega328P-Arduino-Compatible-Nano-V3-Improved-Version-
 https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p-84775.html
 
 
-> 1x WS2812 led strip (I used the one below - do not recommend using a bigger strip then 10 leds without external power)
-https://www.banggood.com/Eachine-Aurora-90-100-Mini-FPV-Racer-Spare-Part-WS2812-LED-Board-LED-Strip-Light-p-1122903.html
+> !!!UPDATED!!! 1x WS2812 8 led strip (works even better then the version before AND is available in more countries)
+https://www.banggood.com/CJMCU-8-Bit-WS2812-5050-RGB-LED-Driver-Development-Board-p-958214.html
 
 > The ability to solder a few cables :)  ( oh .. you also need a few cables :P )
 
