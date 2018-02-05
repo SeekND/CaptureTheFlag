@@ -58,11 +58,14 @@ https://www.banggood.com/CJMCU-8-Bit-WS2812-5050-RGB-LED-Driver-Development-Boar
 8. You can now also 3D print this AWESOME folding cover by James Cowel: https://www.thingiverse.com/thing:2780523 
 or my very crappy attempt of making one: https://www.thingiverse.com/thing:2766437
 
-[Picture 1 example](pictures/IMG_1432.JPG)
 
-[Picture 2 example](pictures/IMG_1433.JPG)
 
-[Picture 3 example](pictures/IMG_1434.JPG)
+
+[Picture 1 example](pictures/IMG_1432.JPG)  [Picture 2 example](pictures/IMG_1433.JPG)   [Picture 3 example](pictures/IMG_1434.JPG)
+
+
+
+
 
 ## You can see a build video here: ##
 ## https://www.youtube.com/watch?v=enudy0pY3R4 ##
