@@ -61,7 +61,7 @@ or my very crappy attempt of making one: https://www.thingiverse.com/thing:27664
 
 
 
-[Picture 1 example](pictures/IMG_1432.JPG)  [Picture 2 example](pictures/IMG_1433.JPG)   [Picture 3 example](pictures/IMG_1434.JPG)
+[Picture 1](pictures/IMG_1432.JPG) - [Picture 2](pictures/IMG_1433.JPG) - [Picture 3](pictures/IMG_1434.JPG)
 
 
 
