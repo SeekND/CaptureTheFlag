@@ -55,6 +55,8 @@ https://www.banggood.com/CJMCU-8-Bit-WS2812-5050-RGB-LED-Driver-Development-Boar
 5. Solder the Ground pin in your VTX receiver to your Arduino Ground (the same ground you connected the WS2812 ground to)
 6. Solder the 5v pin in your VTX receiver to your Arduino 5V (the same 5v you connected the WS2812 5v to)
 7. And finally, solder the RSSI pin in your VTX receiver to your Arduino A3
+8. You can now also 3D print this AWESOME folding cover by James Cowel: https://www.thingiverse.com/thing:2780523 
+or my very crappy attempt of making one: https://www.thingiverse.com/thing:2766437
 
 [Picture 1 example](pictures/IMG_1432.JPG)
 
@@ -89,22 +91,21 @@ Almost! You just need to upload the code to your Arduino via usb and you are don
 You are now the proud owner of a CTF flag!
 
 1. The arduino board can be powered by connecting 5v to the 5v connection OR by connecting it to a power bank via USB.
-2. You can now also 3D print a neat cover for the arduino : https://www.thingiverse.com/thing:2766437
-3. Once you power up the arduino board it will start scanning for all RACEBAND frequencies. It takes ~6 seconds to do a complete loop. 
-4. Once it finds the first frequency it will change the LED colour depending if you are BLUE TEAM (RACEBAND 1-4) or RED TEAM (RACEBAND 5-8)
-5. Once the flag changes colour it will only scan for the other team frequencies so the scanning takes place faster (~3 seconds for a loop)
-6. Protect your flags anyway you can!
+2. Once you power up the arduino board it will start scanning for all RACEBAND frequencies. It takes ~6 seconds to do a complete loop. 
+3. Once it finds the first frequency it will change the LED colour depending if you are BLUE TEAM (RACEBAND 1-4) or RED TEAM (RACEBAND 5-8)
+4. Once the flag changes colour it will only scan for the other team frequencies so the scanning takes place faster (~3 seconds for a loop)
+5. Protect your flags anyway you can!
 
 ## MODES
 
 Modes available
 
-2. Capture the flag. Your standard capture the flag where two teams battle it out to have their flag and their opponents flag captured
+Mode 2. Capture the flag. Your standard capture the flag where two teams battle it out to have their flag and their opponents flag captured
 - R1-R4: TEAM BLUE    //     R5-8: TEAM BLUE
 
-4. Single Player CTF. Pick Raceband 1. Turn all flags on and place them around your house. Get ready to go mental trying to get your flags not to drop to 0 leds. Good luck :)
+Mode 4. Single Player CTF. Pick Raceband 1. Turn all flags on and place them around your house. Get ready to go mental trying to get your flags not to drop to 0 leds. Good luck :)
 
-5. Free For All Deathmatch. You are on your own and need to capture as many flags for yourself as you can.
+Mode 5. Free For All Deathmatch. You are on your own and need to capture as many flags for yourself as you can.
 - R1 BLUE
 - R2 GREEN
 - R3 YELLOW
@@ -114,7 +115,7 @@ Modes available
 - R7 WHITE
 - R8 MULTICOLOR
 
-6. Scavenger Hunt. All flags have been hidden. It's your mission to find as many as you can before your battery ends.
+Mode 6. Scavenger Hunt. All flags have been hidden. It's your mission to find as many as you can before your battery ends.
 - R1 BLUE
 - R2 GREEN
 - R3 YELLOW
