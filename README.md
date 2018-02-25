@@ -20,7 +20,7 @@ This mod was made with Tiny Whoops (check *TinyWhoop.com*) in mind but really yo
 
 It’s fairly easy to build, **costs around £9 (or $12) per flag in materials** and you just need to solder a few cables 🙂
 
-You can battle **4 drones (BLUE TEAM - RACEBAND 1 to 4) vs 4 drones (RED TEAM - RACEBAND 5 to 8)** in a game of Capture The Flag (as long as your VTX signals allow for that many to be flying at the same time) with as many flags as you are bothered to build!
+You can battle **4 drones (BLUE TEAM) vs 4 drones (RED TEAM)** - (currently RACEBAND channels only) - in a game of Capture The Flag (as long as your VTX signals allow for that many to be flying at the same time) with as many flags as you are bothered to build!
 There are also several new modes you can now try out - read more on this below.
 
 The code itself is GREATELY based off Chorus RF Laptimer
