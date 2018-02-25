@@ -1,7 +1,7 @@
 # Capture The Flag for drones
 ![Alt text](pictures/CTF.jpg?raw=true "CTF")
 
-// Current version: 0.4 alpha //
+// Current version: 0.66 alpha //
 
 
 I would like to share something I’ve been wanting for a while so I just decided to learn Arduino and do it myself.
@@ -43,6 +43,9 @@ https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p
 > !!!UPDATED!!! 1x WS2812 8 led strip (works even better then the version before AND is available in more countries)
 https://www.banggood.com/CJMCU-8-Bit-WS2812-5050-RGB-LED-Driver-Development-Board-p-958214.html
 
+> !!!UPDATE!!! You can now configure\reconfigure the whole system without going into the code. All you need is to add a button.
+https://www.banggood.com/6-x-6-x-6-4-Pin-Momentary-Schalter-Tactile-Micro-Drucktaster-p-1027296.html
+
 > The ability to solder a few cables :)  ( oh .. you also need a few cables :P )
 
  
@@ -54,8 +57,9 @@ https://www.banggood.com/CJMCU-8-Bit-WS2812-5050-RGB-LED-Driver-Development-Boar
 4. Solder the Channel 3 pin in your VTX receiver to your Arduino D12
 5. Solder the Ground pin in your VTX receiver to your Arduino Ground (the same ground you connected the WS2812 ground to)
 6. Solder the 5v pin in your VTX receiver to your Arduino 5V (the same 5v you connected the WS2812 5v to)
-7. And finally, solder the RSSI pin in your VTX receiver to your Arduino A3
-8. You can now also 3D print this AWESOME folding cover by James Cowel: https://www.thingiverse.com/thing:2780523 
+7. Solder the RSSI pin in your VTX receiver to your Arduino A3
+8. And finally, solder one leg of the micro button to D3 and the other one to Ground. You will need to use the same side tabs on the button. You can break the other side tabs off.
+9. You can now also 3D print this AWESOME folding cover by James Cowel: https://www.thingiverse.com/thing:2780523 
 or my very crappy attempt of making one: https://www.thingiverse.com/thing:2766437
 
 
@@ -99,12 +103,22 @@ You are now the proud owner of a CTF flag!
 4. Once the flag changes colour it will only scan for the other team frequencies so the scanning takes place faster (~3 seconds for a loop)
 5. Protect your flags anyway you can!
 
+
+# NEW >>> FLAG CONFIGURATION!!!!
+
+You can now configure all settings for the flag on the go by using only 1 button.
+Explanation video will be available soon.
+
+
 ## MODES
 
 Modes available
 
 Mode 2. Capture the flag. Your standard capture the flag where two teams battle it out to have their flag and their opponents flag captured
-- R1-R4: TEAM BLUE    //     R5-8: TEAM BLUE
+- R1, R3, R5, R7 TEAM BLUE
+- R2, R4, R6, R8 TEAM RED
+
+Mode 3. DOMINATION Capture the flag. Two teams will battle for domination of the flag. You must stay near the flag for it to be captured.
 
 Mode 4. Single Player CTF. Pick Raceband 1. Turn all flags on and place them around your house. Get ready to go mental trying to get your flags not to drop to 0 leds. Good luck :)
 
@@ -118,25 +132,21 @@ Mode 5. Free For All Deathmatch. You are on your own and need to capture as many
 - R7 WHITE
 - R8 MULTICOLOR
 
-Mode 6. Scavenger Hunt. All flags have been hidden. It's your mission to find as many as you can before your battery ends.
-- R1 BLUE
-- R2 GREEN
-- R3 YELLOW
-- R4 RED
-- R5 CYAN
-- R6 VIOLET
-- R7 WHITE
-- R8 MULTICOLOR
 
  ### GAME IDEA 1 (2 flags - MODE 2) ###
   Setup both teams in each flag area. Prime your flag by putting your team's drone next to it.
-  Try to capture the other team's flag and defend yours. Game ends when everyone runs out of their battery (TEAM with both flags WINS or DRAW 1 FLAG EACH).
-  Press reset button in each arduino to restart game
+  Try to capture the other team's flag and defend yours. 
+  Once the timer finishes the flag will show which team won by showing the team colour and how many points they got.
+  
+ Game restarts automatically once the timer finishes.
+ 
 
    ### GAME IDEA 2 (multiple flags - MODE 2) ###
   Team death match. Both teams start from a staging area and try to capture and hold as many flags as you can.
-  Game ends when everyone runs out of their battery (TEAM with most flags WINS).
-  Press reset button in each arduino to restart game
+  Once the timer finishes the flag will show which team won by showing the team colour and how many points they got.
+  
+ Game restarts automatically once the timer finishes.
+ 
 
   ### GAME IDEA 3 (DEATH MATCH - MODE 5) ###
   Up to 8 players (R1-R8) start from a staging area and try to capture as many flags as they can before everyone runs out of battery.
@@ -149,35 +159,28 @@ Mode 6. Scavenger Hunt. All flags have been hidden. It's your mission to find as
   - R6 VIOLET
   - R7 WHITE
   - R8 MULTICOLOUR
-  Press reset button in each arduino to restart game
+  
+ Game restarts automatically once the timer finishes.
 
-  ### GAME IDEA 4 (SCAVENGER HUNT - MODE 6) ###
-  Up to 8 players (R1-R8) start from a staging area and try to find as many HIDDEN flags as they can before everyone runs out of battery.
-  Once a flag is captured it cannot be recaptured by another drone. The one with the most flags captured wins.
-  - R1 BLUE
-  - R2 GREEN
-  - R3 YELLOW
-  - R4 RED
-  - R5 CYAN
-  - R6 VIOLET
-  - R7 WHITE
-  - R8 MULTICOLOUR
-  Press reset button in each arduino to restart game
 
  ### GAME IDEA 5 (SINGLEPLAYER CTF - MODE 4)  ###
   Set your whoop to raceband1. Turn all the flags and spread them in several places of your house.
-  Once you start capturing a flag the timer for that flag will start. If you go away from that flag it will start decreasing, depending on how many colours you captured.
-  If the colours of the flag get to 0 you will not be able to recapture the flag. See how long you will managed to keep most flags alive. Good luck!
-  - R1 BLUE
-  - R2 GREEN
-  - R3 YELLOW
-  - R4 RED
-  - R5 CYAN
-  - R6 VIOLET
-  - R7 WHITE
-  - R8 MULTICOLOUR
-  Press reset button in each arduino to restart game
+  Once you start capturing a flag the timer for that flag will start. If you go away from that flag the leds will start decreasing.
+  If the leds of the flag get to 0 you will not be able to recapture the flag. See how long you will managed to keep all flags alive. 
+  
+Once the timer finishes the flag will show how many points they got.
+If you fail the flag will turn red.
 
+  - Use Raceband1
+ 
+ Game restarts automatically once the timer finishes.
+
+ ### GAME IDEA 6 (DOMINATION CTF - MODE 3)  ###
+  Setup both teams in each flag area. Prime your flag by putting your team's drone next to it.
+  Try to capture the other team's flag and defend yours. Game ends when the timer set expires (default 2m 30s).
+Once the timer finishes the flag will show which team won by showing the team colour and how many points they got.
+  
+ Game restarts automatically once the timer finishes.
 
 
 # CONTACTS
@@ -191,6 +194,7 @@ Mode 6. Scavenger Hunt. All flags have been hidden. It's your mission to find as
 If you'd like to help support the project please contribute with ideas.
 
 If you would like to contribute in another way, I would be very grateful as well.
+
 ![Alt text](http://www.sign-holders.co.uk/my_documents/my_pictures/PayPal%20logo.jpg?raw=true "paypal") http://paypal.me/SeekND
 
 Thank you for your support!!
