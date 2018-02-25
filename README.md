@@ -39,8 +39,7 @@ https://www.banggood.com/ATmega328P-Arduino-Compatible-Nano-V3-Improved-Version-
 > 1x FPV Receiver module with SPI mod (these below already have the mod but double check - google vtx spi mod or check the pictures in this repo)
 https://www.banggood.com/FPV-5_8G-Wireless-Audio-Video-Receiving-Module-RX5808-p-84775.html
 
-
-> !!!UPDATED!!! 1x WS2812 8 led strip (works even better then the version before AND is available in more countries)
+> !!!UPDATED!!! 1x WS2812 8 led strip (works even better then the previous version AND is available in more countries)
 https://www.banggood.com/CJMCU-8-Bit-WS2812-5050-RGB-LED-Driver-Development-Board-p-958214.html
 
 > !!!UPDATE!!! You can now configure\reconfigure the whole system without going into the code. All you need is to add a button.
@@ -195,6 +194,7 @@ If you'd like to help support the project please contribute with ideas.
 
 If you would like to contribute in another way, I would be very grateful as well.
 
-![Alt text](http://www.sign-holders.co.uk/my_documents/my_pictures/PayPal%20logo.jpg?raw=true "paypal") http://paypal.me/SeekND
+![Alt text](http://www.sign-holders.co.uk/my_documents/my_pictures/PayPal%20logo.jpg?raw=true "paypal") 
+http://paypal.me/SeekND
 
 Thank you for your support!!
