@@ -85,10 +85,11 @@ Almost! You just need to upload the code to your Arduino via usb and you are don
 4. You will now be able to see a bunch of code and several files open.
 5. Goto Tools/Board and pick Arduino Nano (if you bought an arduino nano, otherwise pick the one you have). The processor is ATMega328P.
 6. Now to go port and pick the port your Arduino Nano is connected to. If you don't know which one it is, disconnect the nano and check what ports are available. Reconnect the nano, the new port will be the nano. If you don't get any new ports I'm afraid you will need to google how to troubleshoot it :)
-7. You will need to download a Library called FASTLED. Goggle this if you don't know how. You can do it directly from Arduino IDE.
+7. You will need to download the following libraries: FASTLED / ADAFRUITSSD1306 / ADAFRUIT GFX . Goggle this if you don't know how. You can do it directly from Arduino IDE.
 8. VERY IMPORTANT. You will need to play with the RSSITHRESHOLD value to find what works best for you. I find that most receivers work differently and that value can be between 190 to 260. Test it out with with EACH nano you build
 9. You can also change MODES (view further down) by changing the MODE value in the code.
-10.Finally, when you are ready, goto sketch menu and select upload. If you done everything right you will see an increasing bar on the bottom right handside of the program and then a message saying Done uploading on the lower left handside.
+10. Also, you will need to update the INTERNALLEDS reference in the code to the number of LEDS you have.
+11. Finally, when you are ready, goto sketch menu and select upload. If you done everything right you will see an increasing bar on the bottom right handside of the program and then a message saying Done uploading on the lower left handside.
 
 
 
