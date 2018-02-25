@@ -195,6 +195,7 @@ If you'd like to help support the project please contribute with ideas.
 If you would like to contribute in another way, I would be very grateful as well.
 
 ![Alt text](http://www.sign-holders.co.uk/my_documents/my_pictures/PayPal%20logo.jpg?raw=true "paypal") 
+
 http://paypal.me/SeekND
 
 Thank you for your support!!
