@@ -113,12 +113,12 @@ You can now configure all settings for the flag on the go by using only 1 button
 
 Colour configuration:
 
-Blue = Raceband
-Red = Band A
-Yellow = Band B
-Green = Band E
-Purple = Band F
-Cyan = Band D
+- Blue = Raceband
+- Red = Band A
+- Yellow = Band B
+- Green = Band E
+- Purple = Band F
+- Cyan = Band D
 
 
 ## MODES
@@ -126,22 +126,16 @@ Cyan = Band D
 Modes available
 
 Mode 2. Capture the flag. Your standard capture the flag where two teams battle it out to have their flag and their opponents flag captured
+Pre-setup values below but you can also change it with the button now
 - R1, R3, R5, R7 TEAM BLUE
 - R2, R4, R6, R8 TEAM RED
 
 Mode 3. DOMINATION Capture the flag. Two teams will battle for domination of the flag. You must stay near the flag for it to be captured.
 
-Mode 4. Single Player CTF. Pick Raceband 1. Turn all flags on and place them around your house. Get ready to go mental trying to get your flags not to drop to 0 leds. Good luck :)
+Mode 4. Single Player CTF. Change your frequency to the first frequency that is setup in the code (you can also change it with the button now). Turn all flags on and place them around your house. Get ready to go mental trying to get your flags not to drop to 0 leds. Good luck :)
 
 Mode 5. Free For All Deathmatch. You are on your own and need to capture as many flags for yourself as you can.
-- R1 BLUE
-- R2 GREEN
-- R3 YELLOW
-- R4 RED
-- R5 CYAN
-- R6 VIOLET
-- R7 WHITE
-- R8 MULTICOLOR
+
 
 
  ### GAME IDEA 1 (2 flags - MODE 2) ###
@@ -160,29 +154,22 @@ Mode 5. Free For All Deathmatch. You are on your own and need to capture as many
  
 
   ### GAME IDEA 3 (DEATH MATCH - MODE 5) ###
-  Up to 8 players (R1-R8) start from a staging area and try to capture as many flags as they can before everyone runs out of battery.
+  Up to 8 players (each frequency can now be configured) start from a staging area and try to capture as many flags as they can before everyone runs out of battery.
   The one with the most flags captured wins.
-  - R1 BLUE
-  - R2 GREEN
-  - R3 YELLOW
-  - R4 RED
-  - R5 CYAN
-  - R6 VIOLET
-  - R7 WHITE
-  - R8 MULTICOLOUR
+
   
  Game restarts automatically once the timer finishes.
 
 
  ### GAME IDEA 5 (SINGLEPLAYER CTF - MODE 4)  ###
-  Set your whoop to raceband1. Turn all the flags and spread them in several places of your house.
+  Set your whoop to the first configured frequency. Turn all the flags and spread them in several places of your house.
   Once you start capturing a flag the timer for that flag will start. If you go away from that flag the leds will start decreasing.
   If the leds of the flag get to 0 you will not be able to recapture the flag. See how long you will managed to keep all flags alive. 
   
 Once the timer finishes the flag will show how many points they got.
 If you fail the flag will turn red.
 
-  - Use Raceband1
+ 
  
  Game restarts automatically once the timer finishes.
 
