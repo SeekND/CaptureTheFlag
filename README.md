@@ -1,7 +1,7 @@
 # Capture The Flag for drones
 ![Alt text](pictures/CTF.jpg?raw=true "CTF")
 
-// Current version: 0.67 alpha //
+// Current version: 0.8 alpha //
 
 
 I would like to share something I’ve been wanting for a while so I just decided to learn Arduino and do it myself.
@@ -20,16 +20,17 @@ This mod was made with Tiny Whoops (check *TinyWhoop.com*) in mind but really yo
 
 It’s fairly easy to build, **costs around £9 (or $12) per flag in materials** and you just need to solder a few cables 🙂
 
-You can battle **4 drones (BLUE TEAM) vs 4 drones (RED TEAM)** - (currently RACEBAND channels only) - in a game of Capture The Flag (as long as your VTX signals allow for that many to be flying at the same time) with as many flags as you are bothered to build!
-There are also several new modes you can now try out - read more on this below.
+You can battle **4 drones (BLUE TEAM) vs 4 drones (RED TEAM)** - (using any frequency) - in a game of Capture The Flag (as long as your VTX signals allow for that many to be flying at the same time) with as many flags as you are bothered to build!
+There are also several new modes you can now try out, including a SINGLE PLAYER game - read more on this below.
 
-The code itself is GREATELY based off Chorus RF Laptimer
+The code itself was built from Chorus RF Laptimer, but most of that code is gone now.
 Visit their repo if you are interested in knowing more about it here: https://github.com/voroshkov/Chorus-RF-Laptimer
 
-Unlike Chorus RF Laptimer, at this moment this mod is standalone and cannot be accessed remotely (yet, maybe someone would like to help code that?)
+Unlike Chorus RF Laptimer, at this moment this mod is standalone and cannot be accessed remotely but can be fully configured on the go via 1 button you can add to the unit.
 
-You can though, change the code to match your needs.
-I've commented everything that I've changed in the code and the explanation behind it so it's easy for you to find it and replace it. Pretty sure the code can be improved by A LOT but hey .. it's working!
+You can also change the code to match your needs.
+I've created a special setup section right at the start of the first page of the code where you can change and adapt every possible setting to your needs.
+
 
 ## Materials you need
 
@@ -104,10 +105,20 @@ You are now the proud owner of a CTF flag!
 5. Protect your flags anyway you can!
 
 
-# NEW >>> FLAG CONFIGURATION!!!!
+# NEW >>> FLAG CONFIGURATION ON THE GO!!!!
 
 You can now configure all settings for the flag on the go by using only 1 button.
-Explanation video will be available soon.
+## Watch the explanation video here: ##
+## https://www.youtube.com/watch?v=I-ONz2Xr1Us ##
+
+Colour configuration:
+
+Blue = Raceband
+Red = Band A
+Yellow = Band B
+Green = Band E
+Purple = Band F
+Cyan = Band D
 
 
 ## MODES
