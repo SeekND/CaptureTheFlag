@@ -29,8 +29,6 @@
   SOFTWARE.
 */
 
-int timer = 0;
-
 int scoreBlue()
 {
   pointsBlue++;
@@ -41,8 +39,4 @@ int scoreRed()
 {
   pointsRed++;
   smallMessage2 =  String("red: ") + String(pointsRed);
-
 }
-
-
-
