@@ -107,18 +107,11 @@ unsigned int Clock = 0, R_clock;
 boolean Reset = false, Stop = false, Paused = false;
 volatile boolean timeFlag = false;
 
-
-
-//----- SOUND CONFIG --------------------------------------
-
-const uint16_t musicNotes[] PROGMEM = { 523, 587, 659, 698, 784, 880, 988, 1046 };
 // number of analog rssi reads to average for the current check.
 // single analog read with FASTADC defined (see below) takes ~20us on 16MHz arduino
 // so e.g. 10 reads will take 200 ms, which gives resolution of 5 RSSI reads per ms,
 // this means that we can theoretically have 1ms timing accuracy :)
 #define RSSI_READS 5 // 5 should give about 10 000 readings per second
-
-
 
 //----- RSSI --------------------------------------
 
@@ -221,7 +214,6 @@ boolean configureScreen = false;
 #include "pinAssignments.h"
 #include "channels.h"
 #include "rx5808spi.h"
-#include "sounds.h"
 #include "leds.h"
 #include "scoring.h"
 #include "config.h"
