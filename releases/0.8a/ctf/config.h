@@ -100,23 +100,6 @@ void gameReset()
 
 }
 
-
-
-
-
-
-boolean TimeHasChanged()
-{
-  return timeFlag;
-}
-
-// output true if timer equals requested time
-boolean TimeCheck(unsigned int hours, unsigned int minutes, unsigned int seconds)
-{
-  return ( minutes == ShowMinutes() && seconds == ShowSeconds());
-}
-
-
 boolean CountDownTimer()
 {
   static unsigned long duration = 1000000; // 1 second
@@ -282,17 +265,7 @@ int spdifficultysetting()
   }
 }
 
-
-
-
 // -------OTHER SETUPS --------------------------------
-
-
-// ----------------------------------------------------------------------------
-uint16_t setRssiMonitorDelay(uint16_t delay) {
-  return delay < MIN_RSSI_MONITOR_DELAY_CYCLES ? MIN_RSSI_MONITOR_DELAY_CYCLES : delay;
-}
-// ----------------------------------------------------------------------------
 
 uint16_t readRSSI() {
   int rssiA = 0;
@@ -317,9 +290,3 @@ uint16_t getFilteredRSSI() {
 
   return rssiArr[FILTER_ITERATIONS];
 }
-
-// ----------------------------------------------------------------------------
-uint16_t getMedian(uint16_t a[], uint16_t size) {
-  return a[size / 2];
-}
-
