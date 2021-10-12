@@ -52,9 +52,9 @@ https://www.banggood.com/6-x-6-x-6-4-Pin-Momentary-Schalter-Tactile-Micro-Druckt
 ## How to assemble it
 
 1. Start by soldering the WS2812 strip Ground cable (black) to Arduino ground, the WS2812 strip 5V cable (red) to Arduino 5V and the WS2812 strip din cable (blue) to Arduino D5
-2. Now solder the Channel 1 pin in your VTX receiver to your Arduino D10
-3. Solder the Channel 2 pin in your VTX receiver to your Arduino D11
-4. Solder the Channel 3 pin in your VTX receiver to your Arduino D12
+2. Now solder the Channel 1 pin in your VTX receiver to your Arduino D10 (SS)
+3. Solder the Channel 2 pin in your VTX receiver to your Arduino D11 (MOSI)
+4. Solder the Channel 3 pin in your VTX receiver to your Arduino D12 (MISO)
 5. Solder the Ground pin in your VTX receiver to your Arduino Ground (the same ground you connected the WS2812 ground to)
 6. Solder the 5v pin in your VTX receiver to your Arduino 5V (the same 5v you connected the WS2812 5v to)
 7. Solder the RSSI pin in your VTX receiver to your Arduino A3
